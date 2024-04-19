@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Style id="6">
+            <LineStyle id="7">
+                <color>ff0000ff</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Placemark id="3">
+            <name>UPC</name>
+            <Point id="2">
+                <coordinates>2.112347,41.388725,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="5">
+            <name>Camí</name>
+            <description>Un caminet</description>
+            <styleUrl>#6</styleUrl>
+            <LineString id="4">
+                <coordinates>2.11117435152314,41.3872344661771,10 2.112543023293298,41.38807192338636,10 2.113186629350088,41.3877564559475,10 2.113580383823295,41.38790501339351,10 2.113638683576819,41.38819670380168,10 2.113130671445338,41.3884676474094,10 2.114012520479633,41.38919524414038,10 2.112873821172967,41.39003242064307,10 2.109970958003426,41.38801346749829,10 2.11117435152314,41.3872344661771,10</coordinates>
+            </LineString>
+        </Placemark>
+    </Document>
+</kml>
