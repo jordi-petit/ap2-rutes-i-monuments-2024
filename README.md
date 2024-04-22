@@ -16,9 +16,9 @@ Aquí teniu un exemple de visualització d'un mapa en 3D obtingut amb les rutes 
 
 FIGURA 1 en 3D
 
-Aquí teniu un exemple de visualització de les rutes òptimes per arribar a tots els monuments medievals al voltant de Ripoll:
+Aquí teniu un exemple de visualització de les rutes òptimes per arribar a tots els monuments medievals al voltant del Pedraforca:
 
-FIGURA 2 en 2D
+<img src="mapa-arbre.png" style="width: 40rem" />
 
 ## Descobrint les rutes dels senderistes
 
