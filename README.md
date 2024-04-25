@@ -94,6 +94,8 @@ Probablement observareu anomalies en la visualització de les dades que generen 
 
 - És possible que la seqüència de temps estigui mal ordenada a l'arxiu GPX, és a dir, que temps($p_i$) $>$ temps($p_{i+1}$) en una determinada seqüència.
 
+- És possible que obtinguem grafs amb més d'un component connex. Penseu com evitar problemes a l'hora de calcular les rutes.
+
 En el cas de detectar anomalies, caldrà fer una feina de _neteja_ de dades. Una opció és ignorar aquelles dades que mostren anomalies, o corregir l'anomalia fent alguna suposició raonable (per exemple, una interpolació). Qualsevol decisió que prengueu per netejar les dades haurà d'estar raonada i documentada en la documentació lliurada amb la pràctica.
 
 ## Rutes òptimes per arribar a monuments medievals
@@ -331,6 +333,8 @@ https://www.catalunyamedieval.es/capella-de-can-cama-masies-de-voltrega-osona/ 3
 https://www.catalunyamedieval.es/capella-de-can-font-de-la-serra-manresa-bages/ 4. Capella de Can Font de la Serra – Manresa / Bages
 ...
 ```
+
+Compte! Penseu que haureu d'accedir a molts links, així que és possible que es produeixin errors...
 
 ### Com generar un fitxer KML amb `simplekml`
 
