@@ -403,7 +403,7 @@ Només heu de lliurar un fitxer ZIP que, al descomprimir-se, generi en el direct
 Res més. Sense directoris ni subdirectoris. Ni `.gits`, ni `._*`. Res més, gràcies.
 
 Els vostres fitxers de codi en Python han de seguir
-[les regles d'estíl PEP8](https://www.python.org/dev/peps/pep-0008/). Podeu utilitzar el paquet `pep8` o http://pep8online.com/ per assegurar-vos que seguiu aquestes regles d'estíl. L'ús de tabuladors en el codi queda prohibit (zero directe).
+[les regles d'estil PEP8](https://www.python.org/dev/peps/pep-0008/). Podeu utilitzar el paquet `pep8` o http://pep8online.com/ per assegurar-vos que seguiu aquestes regles d'estil. També existeix una extensió de Visual Studio Code, anomenada [Black Formatter](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter), que permet [formatar el codi automàticament](https://code.visualstudio.com/docs/python/formatting) amb el format descrit al PEP8. L'ús de tabuladors en el codi queda prohibit (zero directe).
 
 Els vostres programes en Python han d'usar `typing` en la mesura del possible. Totes les funcions públiques han d'incloure el tipus dels seus paràmetres i resultats.
 
