@@ -12,9 +12,9 @@ El vostre programa ha de:
 
 Les dades s'obtindran a través de [OpenStreetMap](https://www.openstreetmap.org/) i de [Catalunya Medieval](https://www.catalunyamedieval.es/).
 
-Aquí teniu un exemple de visualització d'un mapa en 3D obtingut amb les rutes dels senderistes al Pedraforca:
+Aquí teniu un exemple de visualització d'un mapa en 3D obtingut amb les rutes pel Delta de l'Ebre:
 
-FIGURA 1 en 3D
+<img src="mapaEbre.png" style="width: 40rem" />
 
 Aquí teniu un exemple de visualització de les rutes òptimes per arribar a tots els monuments medievals al voltant del Pedraforca:
 
@@ -299,7 +299,7 @@ while True:
                 segment.points.sort(key=lambda p: p.time)  # type: ignore
                 for i in range(len(segment.points) - 1):
                     p1, p2 = segment.points[i], segment.points[i + 1]
-                    print(p1.latitude, p1.longitude, p1.time, "-", p1.latitude, p1.longitude, p1.time)
+                    print(p1.latitude, p1.longitude, p1.time, "-", p2.latitude, p2.longitude, p2.time)
     page += 1
 ```
 
