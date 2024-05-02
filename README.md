@@ -108,7 +108,7 @@ Per aquesta part de la pràctica, usarem les dades disponbles a [Catalunya Medie
 
 ### Càlcul de les rutes
 
-A partir d'un punt de partida donat (origen), cal calcular l'arbre de rutes més curtes que van des de l'origen a cadascun dels monuments mediavals de la regió. El resultat hauria de ser un mapa com aquest (però usant staticmaps), on les distàncies es calculen a partir de les distàncies en línia recta de les arestes del graf.
+A partir d'un punt de partida donat (origen), cal calcular l'arbre de rutes més curtes que van des de l'origen a cadascun dels monuments mediavals de la regió. El resultat hauria de ser un mapa com aquest (però usant staticmap), on les distàncies es calculen a partir de les distàncies en línia recta de les arestes del graf.
 
 <img src="arbre.png" style="width: 35em">
 
@@ -154,7 +154,7 @@ def get_segments(box: Box, filename: str) -> Segments:
     """
 
 def show_segments(segments: Segments, filename: str) -> None:
-    """Show all segments in a PNG file using staticmaps."""
+    """Show all segments in a PNG file using staticmap."""
 
 ```
 
@@ -177,7 +177,7 @@ def simplify_graph(graph: nx.Graph, epsilon: float) -> nx.Graph:
 
 
 def export_PNG(graph: nx.Graph, filename: str) -> None:
-    """Export the graph to a PNG file using staticmaps."""
+    """Export the graph to a PNG file using staticmap."""
 
 
 def export_KML(graph: nx.Graph, filename: str) -> None:
@@ -224,7 +224,7 @@ def find_routes(graph: nx.Graph, start: Point, endpoints: Monuments) -> Routes:
 
 
 def export_PNG(routes: Routes, filename: str) -> None:
-    """Export the graph to a PNG file using staticmaps."""
+    """Export the graph to a PNG file using staticmap."""
 
 
 def export_KML(groutes: Routes, filename: str) -> None:
