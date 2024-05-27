@@ -397,7 +397,7 @@ El termini de lliurament és el **dimarts 4 de juny a les 23:59 CEST**.
 
 Només heu de lliurar un fitxer ZIP que, al descomprimir-se, generi en el directori actual els fitxers següents:
 
-- `README.md` amb la documentació del projecte,
+- `README.md` amb la documentació del projecte (incloent els noms dels autors),
 - `requirements.txt` amb el requeriments del vostre projecte,
 - `*.py`: els vostres moduls en Python,
 - `segments.dat`: un exemple de dades de segments,
